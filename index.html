@@ -1,38 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Riccardo Chen">
-    <meta name="description" content="Una pagina che ho creato per la pratica di HTML sul CV"> 
+    <meta name="description" content="Una pagina che presenta il CV di un web developer">
 
     <meta property="og:title" content="Riccardo Chen CV">
     <meta property="og:url" content="index.html">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Un stio che presenta il cv di un web developer, ed tutto fatto in HTML. ">
-    <meta property="og:image" content="image.png">
+    <meta property="og:description" content="Una pagina che presenta il CV di un web developer, scritto principalmente in HTML.">
+    <meta property="og:image" content="./chenriccardo1.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="apple.com">
     <meta property="twitter:url" content="index.html">
     <meta name="twitter:title" content="Riccardo Chen CV">
-    <meta name="twitter:description" content="Un stio che present il cv di un web developer, ed tutto fatto in HTML. ">
-    <meta name="twitter:image" content="image.png">
+    <meta name="twitter:description" content="Una pagina che presenta il CV di un web developer, scritto principalmente in HTML.">
+    <meta name="twitter:image" content="./chenriccardo1.jpg">
 
-    <title>First poject in HTML about CV</title>
-    <link rel="caninical" href="index.html">
+    <title>First Project in HTML - CV</title>
+    <link rel="canonical" href="index.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin-left: 15px;
+            margin-right: 15px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+        }
+    </style>
 
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="./favicon_io/site.webmanifest">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">  
 </head>
 <body>
-    <header></header>
+    <header style="margin: 25px; border-radius: 10px; background-color: black; height: 4px;"></header>
+    
     <main>
-        <section></section>
-        <section></section>
+        <img src="./chenriccardo1.jpg" alt="Avatar" width="180">
+        <h1>Riccardo Chen</h1>
+        <h3>Junior Frontend Developer</h3>
+        <hr>
+
+        <section>
+            <h2>Info</h2>
+            <address>
+                <strong>Address:</strong> Via Franco Fugini 11<br>
+                <strong>Location:</strong> Milan, 20015<br>
+                <strong>Cell:</strong> <a href="tel:+3271369820">+3271369820</a><br>
+                <strong>Email:</strong> <a href="mailto:chenriccardo666@gmail.com">chenriccardo666@gmail.com</a>
+            </address>
+        </section>
+        <br>
+        
+        <hr>
+        <section>
+            <h2>About Me</h2>
+            <p>Sono un aspirante Sviluppatore Full Stack con un forte interesse nello sviluppo di siti web e applicazioni web. So organizzare il mio lavoro e gestire lo stress o le scadenze serrate, rimanendo sempre collaborativo in un team.</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Accessibility</li>
+                <li>Figma to Design</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </section>
+
+        <hr>
+        <section>
+            <h2>Education</h2>
+            <article>
+                <h3>IIS G. Giorgi, Romolo (2018 - 2023)</h3>
+                <p><strong>Major:</strong> Telecomunicazione<br>
+                   <strong>Minor:</strong> Computer Programming</p>
+            </article>
+            <article>
+                <h3>ITS Rizzoli, Maciachini (2023 - 2025)</h3>
+                <p><strong>Major:</strong> Software Architect Specialist</p>
+            </article>
+        </section>
+
+        <hr>
+        <section>
+            <h2>Experience</h2>
+            <article>
+                <h3>Object Method, Via Florita (2025)</h3>
+                <p><strong>Role:</strong> Full-stack Developer</p>
+            </article>
+        </section>
+        <hr>
     </main>
-    <footer></footer>
 </body>
 </html>
